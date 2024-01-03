@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+@font-face {
+  font-family: 'Merriweather', serif;
+  src: url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #C00027;
+  color: #F6C976;
+}
+
+.container {
+  margin: 20px;
+}
+
+
+
+/* Tiêu đề */
+.div-tieude-all {
+  display: flex;
+}
+
+.div-tieude {
+  padding-left: 10px;
+  width: 210px;
+}
+
+.p-tieude1 {
+  padding-top: 5px;
+  font-size: 12.5px;
+  color: #F6C976;
+  font-family: 'Merriweather', serif;
+}
+
+.p-tieude2 {
+  font-size: 12.5px;
+  color: #F6C976;
+  font-family: 'Merriweather', serif;
+}
+
+.p-tieude3 {
+  font-size: 10px;
+  color: #F6C976;
+}
+
+.div-iconbar {
+  border-radius: 60px;
+  padding-top: 17px;
+  text-align: center;
+  float: right;
+  margin-left: auto;
+}
+
+.a-iconbar {
+  color: #F6C976;
+  padding: 8px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 60px;
+  transition: all 0.5s;
+}
+
+.fa-bars {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+/* Giới thiệu */
+.div-gioithieu-all {
+  margin: 140px 0px 300px 0px ;
+  text-align: center;
+}
+
+.p-gioithieu-logo {
+  font-size: 70px;
+}
+
+.p-gioithieu {
+  font-size: 45px;
+}
+
+.fa-arrow-down {
+  font-size: 30px;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* Danh mục */
+.div-danhmuc {
+  margin: 30px 0px;
+}
+
+/*
+.a-danhmuc {
+  font-size: 17px;
+  display: block;
+  text-decoration: none;
+  color: #C00027;
+  padding: 27px;
+  background-color: #F6C976;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: all 0.5s;
+} */
+
+/* Khi hover */
+.a-danhmuc {
+  color: #C00027;
+  
+  /* Chuyển sang */
+  display: block;
+  text-decoration: none;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 27px;
+  
+  
+  background-color: #FFC94F;
+  box-shadow: 0px 0px 15px #FFC94F;
+  font-size: 20px;
+  border: none;
+  font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+/* Sự kiện */
+.div-sukien {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #F6C976;
+}
+
+.p-sukien {
+    font-family: 'Merriweather', serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.noidung-sukien {
+  margin: 10px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.ul-sukien {
+  font-size: 20px;
+  padding: 0px 5px 0px 40px;
+  list-style-type: unset;
+  transition: all 0.5s
+}
+
+.div-docthem {
+  text-align: center;
+  padding: 30px 0px 40px 0px;
+}
+
+.a-docthem {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #C00027;
+  background-color: #F6C976;
+  transition: all 0.5s;
+}
+
+.a-docthem:hover {
+  border: solid #F6C976 2px;
+  color: #F6C976;
+  background-color: #C00027;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.img-sukien {
+  height: 220px;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.sukienanh1 {
+  background-image: url("./img/sukien2.jpg");
+}
+
+.sukienanh2 {
+  background-image: url("./img/sukien3.jpg");
+}
+
+
+
+
+/* Thống kê */
+.div-tieude-thongke {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #F6C976;
+  text-align: center;
+}
+
+.p-tieude-thongke  {
+  font-size: 35px;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 10px;
+}
+
+.div-thongke {
+  background-color: #C00027;
+  color : #F6C976;
+  border-radius: 20px;
+  padding: 28px 10px;
+  transition: all 0.5s;
+  border: #F6C976 solid 2px;
+  margin: 5px;
+  
+}
+
+
+.p-thongke {
+  padding-left: 10px;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.p-noidung-thongke {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+.p-thongke-canhbao {
+  font-size: 17px;
+  text-align: center;
+}
+
+
+
+
+.p-noidung-thongbao {
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 40px;
+
+}
+
+
+
+
+
+/* Xem thêm - cuối cùng */
+.div-xemthem {
+  text-align: center;
+  background-color: #0E0E0E;
+  padding: 50px 0px 20px 0px;
+  margin-top: 30px;
+}
+
+.h4-xemthem {
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.a-xemthem {
+  font-size: 16px;
+  padding: 8px;
+  color: #747474;
+  display: block;
+  text-decoration: none;
+}
+
+.p-xemthem {
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.p-xemthem2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-family: 'Merriweather', serif;
+}
+
